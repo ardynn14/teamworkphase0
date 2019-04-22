@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Monoton|Poppins|Sedgwick+Ave+Display|Signika+Negative|Abril+Fatface|Barlow+Condensed|Lobster');
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display|Open+Sans+Condensed:300');
+
+@media screen and (max-width:800px) {
+  .left, .main, .right {
+    width:100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .linkpage a:not(:first-child) {display: none;}
+  .linkpage a.navres {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .linkpage.responsive {position: relative;}
+  .linkpage.responsive .navres {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .linkpage.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+body {
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.navbar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: black;
+    padding: 20px;
+}
+
+.linkpage a:hover {
+  color: white;
+}
+
+.navres {
+  display: none;
+}
+
+.logo {
+    color: orange;
+    font-size: 32px;
+    border: 3px solid orange;
+    display: inline-block;
+    margin-left: 80px;
+    padding: 3px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    
+}
+.logo a{
+  text-decoration: none;
+  color: orange;
+}
+.linkpage a{
+    text-decoration: none;
+    color: orange;
+    font-family: comic;
+    padding: 0px 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.linkpage {
+display: inline-block;
+float: right;
+padding-top: 10px;
+font-size: 20px
+}
+
+.parapics {
+    height: 1000px;
+    background-image: url("pics/bg4.jpg");
+    background-repeat: no-repeat;
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.parapics2 {
+    height: 850px;
+    background-image: url("pics/bg3.jpg");
+    background-repeat: no-repeat;
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.parapics3 {
+  height: 850px;
+  background-image: url("pics/bg1.gif");
+  background-repeat: no-repeat;
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 70px;
+}
+
+.headertext {
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 260px;
+    
+}
+.headertext2 {
+  width: 60%;
+  margin: auto 20%;
+  /* margin-left: 20%;
+  margin-right: 20%; */
+  padding-top: 250px;
+  /* border: 7px solid yellow; */
+
+}
+
+hr.quote {
+       border: 3px dotted yellow;
+}
+
+.headertext h1 {
+margin: 0px;
+padding: 10px;
+font-family: sans-serif;
+font-size: 52px;
+color: yellow;
+font-family: 'Bungee Shade', cursive;
+text-align: center;
+}
+
+.headertext2 h1 {
+  margin: 0px;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 90px;
+  color: yellow;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+  }
+
+#testimony {
+  width: 60%;
+  margin: auto;
+  background-color:#eaeaea;
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 850px;
+  color: grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title {
+  text-align: center;
+  margin: 0px;
+  padding-top: 30px;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 36px;
+  color: orange;
+}
+
+hr.titlehr{
+    width: 250px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+hr.titlehrgrey{
+    width: 250px;
+    border: 2px solid whitesmoke;
+    text-align: center;
+}
+
+.title table {
+  margin: auto;
+}
+
+img.ts {
+  border-radius: 50%;
+  height: 200px;
+  width : 200px;
+  border: 5px solid gray;
+  box-shadow: 10px 10px 5px;
+}
+
+
+td p {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+table tr {
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+p strong {
+    color: orange;
+}
+
+/* products */
+#product {
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 1100px;
+  background-color: #eaeaea;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img.pi {
+  width: 350px;
+  height: 170px;
+}
+
+img.icon {
+width: 70px;
+height:70px;
+}
+
+.space_name{color:black;
+  font-family: 'Signika Negative', sans-serif;
+    font-size:30px;
+    text-align:center;
+    margin-bottom: 30px;
+}
+
+.table_product{
+    margin-top:30px;
+    padding-left: 40px;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 15px 40px;
+}
+.price{
+  text-align:center;
+  font-family: 'Barlow Condensed', sans-serif;
+    color:black;
+    font-size:25px;
+}
+
+.VAT{color:black;
+    text-align:center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:14px;
+}
+
+    
+.signup_text{
+  text-align: center;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 38px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: gray;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.advantage{
+  font-family: 'Signika Negative', sans-serif;
+    font-size: 25px;
+    text-align: center;
+
+
+}
+hr.advan {
+  width: 250px;
+  border: 1px solid grey;
+}
+.pict_advantage{text-align:center;
+
+}
+
+.text_advantage{text-align:center;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.table_advantage{
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+}
+.join{
+  background-color: orange;
+  border-radius: 5px;
+  padding: 75px 15px;
+  text-align: center;
+}
+.signup_text2{color:black;
+    font-family: 'Oswald', sans-serif;
+    font-size:2em;   
+    margin-left:485px;
+}
+
+.signup_form{margin-left:400px;
+}
+
+input[type=text]{border: 1px solid black;
+    border-radius: 4px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:white;
+    color: black;
+}
+
+input[type=email]{border: 1px solid black;
+    border-radius: 4px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:white;
+}
+
+select{border: 1px solid black;
+    border-radius: 4px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:white;
+}
+
+input[type=number]{border: 1px solid black;
+    border-radius: 4px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:white;
+}
+
+#select_product{font-family: 'Oswald', sans-serif;
+    font-size:15px;   
+    
+}
+
+#Days{font-family: 'Oswald', sans-serif;
+    font-size:15px;   
+    
+}
+
+button[type=button]{margin-left:none;
+    font-family: 'Titillium Web', sans-serif;
+    border-radius:8px;
+    background-color:whitesmoke;
+    border: black;
+    color:black;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+
+}
+/* products */
+
+/* footer */
+footer {
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color : black;
+  height: 320px;
+}
+
+
+
+.footername {
+  color: orange;
+  font-size: 30px;
+  font-family: 'Sedgwick Ave Display', cursive;
+  margin: auto;
+  padding: 3px;
+  text-align: center;
+  font-weight: normal;
+  border: 3px solid orange;
+  width: 20%;
+
+}
+
+.footertable {
+  margin: auto;
+}
+
+/* .footer-logo {
+    width: 100%;
+    height: auto;
+    margin: auto;
+} */
+
+.footer-logo ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-logo ul li{
+    display: inline-block;
+    width: 50px;
+}
+
+.footer-logo ul li a{
+    color: orange;
+    font-size:  30px;
+}
+
+.footer-menu-nav{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.footer-menu-nav ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-menu-nav ul li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.footer-menu-nav ul li a{
+    text-decoration: none;
+    color: orange;
+    font-family: 'Open Sans Condensed';
+    font-size: 20px;
+    padding-left: 20px;
+}
+.fottername {
+  column-span: all;
+}
+.footertd p {
+  font-size: 20px;
+  color: orange;
+}
+
+.footertd p a{
+  color: orange;
+  font-size: 20px;
+}
+.copyright {
+  color: orange;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+/* end of footer */
+
+
+/* about */
+
+
+#about {
+  width: 60%;
+  padding-left: 20%;
+  padding-right:20%;
+  background-color: black;
+  height: 850px;
+}
+
+.abouthr {
+  border: 3px double orange;
+
+}
+
+.abouttd {
+  color: whitesmoke;
+  font 30px;
+  font-family: 'Open Sans Condensed';
+  line-height: 30px;
+}
+
+.grid {
+  border-right: 3px solid whitesmoke;
+}
+.abouttable {
+  padding: 20px;
+}
+/* end of about */
+
+/* location */
+#location {
+  background-image: url('pics/map.png');
+  height: 850px;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.locationheader {
+  height: 80px;
+  background-color: whitesmoke;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.locationfooter {
+  height: 120px;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-top: 670px;
+
+
+}
+
+.titlemap {
+  text-align: center;
+  margin: 0px;
+  padding-top: 10px;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 36px;
+  color: orange;
+}
+/* end of loaction */

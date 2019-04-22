@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Monoton|Poppins|Sedgwick+Ave+Display|Signika+Negative|Abril+Fatface|Barlow+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+
+body {
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.navbar {
+    
+    background-color: black;
+    padding: 20px;
+}
+
+.linkpage a:hover {
+  color: white;
+}
+
+.logo {
+    color: orange;
+    font-size: 32px;
+    border: 3px solid orange;
+    display: inline-block;
+    margin-left: 80px;
+    padding: 3px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    
+}
+.logo a{
+  text-decoration: none;
+  color: orange;
+}
+.linkpage a{
+    text-decoration: none;
+    color: orange;
+    font-family: comic;
+    padding: 0px 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.linkpage {
+display: inline-block;
+float: right;
+padding-top: 10px;
+font-size: 20px
+}
+
+.parapics {
+    height: 1000px;
+    background-image: url("pics/bg4.jpg");
+    background-repeat: no-repeat;
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.parapics2 {
+    height: 850px;
+    background-image: url("pics/bg3.jpg");
+    background-repeat: no-repeat;
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.parapics3 {
+  height: 850px;
+  background-image: url("pics/bg1.gif");
+  background-repeat: no-repeat;
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headertext {
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 260px;
+}
+.headertext2 {
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 270px;
+}
+
+hr.quote {
+       border: 3px dotted whitesmoke;
+}
+
+.headertext h1 {
+margin: 0px;
+padding: 10px;
+font-family: sans-serif;
+font-size: 52px;
+color: whitesmoke;
+font-family: 'Bungee Shade', cursive;
+text-align: center;
+}
+
+.headertext2 h1 {
+  margin: 0px;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 52px;
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+  text-align: right;
+  }
+
+#testimony {
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 850px;
+  color: grey;
+}
+
+.title {
+  text-align: center;
+  margin: 0px;
+  padding-top: 30px;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 36px;
+  color: orange;
+}
+
+hr.titlehr{
+    width: 250px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.title table {
+  margin: auto;
+}
+
+img.ts {
+  border-radius: 50%;
+  height: 200px;
+  width : 200px;
+  border: 5px solid gray;
+  box-shadow: 10px 10px 5px;
+}
+
+
+td p {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+table tr {
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+p strong {
+    color: orange;
+}
+
+/* products */
+#product {
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 1100px;
+  background-color: #dddddd;
+}
+
+img.pi {
+  width: 350px;
+  height: 170px;
+}
+
+img.icon {
+width: 70px;
+height:70px;
+}
+
+.space_name{color:black;
+  font-family: 'Signika Negative', sans-serif;
+    font-size:30px;
+    text-align:center;
+    margin-bottom: 30px;
+}
+
+.table_product{
+    margin-top:30px;
+    padding-left: 40px;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 15px 40px;
+}
+.price{
+  text-align:center;
+  font-family: 'Barlow Condensed', sans-serif;
+    color:black;
+    font-size:25px;
+}
+
+.VAT{color:grey;
+    text-align:center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:14px;
+}
+
+    
+.signup_text{
+  text-align: center;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 38px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: gray;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.advantage{
+  font-family: 'Signika Negative', sans-serif;
+    font-size: 25px;
+    text-align: center;
+
+
+}
+hr.advan {
+  width: 250px;
+  border: 1px solid grey;
+}
+.pict_advantage{text-align:center;
+
+}
+
+.text_advantage{text-align:center;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.table_advantage{
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+}
+.join{
+  background-color: orange;
+  border-radius: 5px;
+  padding: 75px 15px;
+  text-align: center;
+}
+.signup_text2{color:black;
+    font-family: 'Oswald', sans-serif;
+    font-size:2em;   
+    margin-left:485px;
+}
+
+.signup_form{margin-left:400px;
+}
+
+input[type=text]{border: 1px solid black;
+    border-radius: 4px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:white;
+    color: black;
+}
+
+input[type=email]{border: 1px solid black;
+    border-radius: 4px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:white;
+}
+
+select{border: 1px solid black;
+    border-radius: 4px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:white;
+}
+
+input[type=number]{border: 1px solid black;
+    border-radius: 4px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:white;
+}
+
+#select_product{font-family: 'Oswald', sans-serif;
+    font-size:15px;   
+    
+}
+
+#Days{font-family: 'Oswald', sans-serif;
+    font-size:15px;   
+    
+}
+
+button[type=button]{margin-left:none;
+    font-family: 'Titillium Web', sans-serif;
+    border-radius:8px;
+    background-color:whitesmoke;
+    border: black;
+    color:black;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+
+}
+/* products */

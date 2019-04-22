@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Monoton|Poppins|Sedgwick+Ave+Display|Signika+Negative|Abril+Fatface|Barlow+Condensed|Lobster');
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display|Open+Sans+Condensed:300');
+html {
+  scroll-behavior: smooth;
+  position: relative;
+}
+body {
+  margin: 0px;
+}
+
+.sectionHeader {
+  width: 580px;
+  margin: 120px auto 0px auto;
+
+
+  font-size: 42px;
+  text-align: center;
+  color: black;
+}
+
+.sectionHeader .description {
+  font-size: 18px;
+}
+
+
+/* header */
+ 
+a:hover {
+  color: white;
+}
+.header {
+  width: 100%;
+  height: 90px;
+  margin: 0px 0px;
+  background: black;
+  position: fixed;
+  z-index: 10;
+}
+
+.header div.logo {
+  width: 180px;
+  min-width: 180px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 80px;
+
+  border: 3px solid orange;
+  padding: 3px;
+
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 32px;
+  color: orange;
+  text-align: center;
+  display: inline-block;
+}
+
+.header div.logo a {
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 32px;
+  text-decoration: none;
+  color: orange;
+}
+
+.header div.navigation {
+  width: 720px;
+  min-width: 720px;
+  height: 40px;
+  margin-top: 25px;
+  margin-right: 40px;
+
+  display: inline-block;
+  float: right;
+}
+
+.header div.navigation table {
+  width: 100%;
+  height: 100%;
+}
+
+.header div.navigation td  {
+  width: 140px;
+  height: 100%;
+  margin: auto auto;
+  text-align: center;
+}
+
+.header div.navigation td a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: orange; 
+} 
+
+.linkpage a:hover {
+  color: white;
+}
+/* end of header */
+/* home */
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  height: auto;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: orange;
+  opacity: 0.7;
+  padding: 0 20px;
+  border-radius: 50%;
+}
+
+.centered h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 70px;
+}
+
+
+
+/* .parapics1 {
+  height: 1000px;
+  min-height: 500px;
+  min-width: 1592px;
+  margin: 0px; 
+  background-image: url("pics/contemporary-office-interior-design-with-these-interior-designers-have-completed-their-own-office-so-lets.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+/* end of home */
+
+/* about us */
+.aboutText {
+  width: 720px;
+  margin: 100px auto;
+  column-count: 3;
+  column-gap: 40px;
+  column-rule: 1px solid black;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: black;
+}
+/* end of about us */
+hr {
+  width: 80%;
+}
+/* spaces */
+.product table {
+  width: 1280px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid black; */
+}
+
+.product td {
+  color: black;
+  /* border: 1px solid black; */
+}
+
+.img_label td {
+  height: 22px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}
+
+
+.spaces_img img {
+  display: block;
+  width: 420px;
+}
+
+.detail td {
+  text-align: center;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+.facilities .sectionHeader {
+  top: 40px;
+  bottom: 0px;
+  font-size: 28px;
+}
+
+.facilities table {
+  /* border: 1px solid black; */
+  margin: 20px auto;
+}
+
+.facilities td {
+  /* border: 1px solid black; */
+  width: 180px;
+}
+
+tr.icon td {
+height: 160px;
+}
+
+tr.icon img {
+  display: block;
+  margin: 5px auto;
+  width: 70px;
+  height: 70px;
+}
+
+tr.lable td {
+  height: 20px;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+/* end of spaces */
+
+/* become a member */
+.signup_text{
+  text-align: center;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 38px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: gray;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.join{
+  background-color: orange;
+  border-radius: 5px;
+  padding: 75px 15px;
+  text-align: center;
+  margin-top: 80px;
+}
+.signup_text2{color:black;
+    font-family: 'Oswald', sans-serif;
+    font-size:2em;   
+    margin-left:485px;
+}
+
+.signup_form{margin-left:400px;
+}
+
+input[type=text]{border: 1px solid black;
+    border-radius: 4px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:white;
+    color: black;
+}
+
+input[type=email]{border: 1px solid black;
+    border-radius: 4px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:white;
+}
+
+select{border: 1px solid black;
+    border-radius: 4px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:white;
+}
+
+input[type=number]{border: 1px solid black;
+    border-radius: 4px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:white;
+}
+
+#select_product{font-family: 'Oswald', sans-serif;
+    font-size:15px;   
+    
+}
+
+#Days{font-family: 'Oswald', sans-serif;
+    font-size:15px;   
+    
+}
+
+button[type=button]{margin-left:none;
+    font-family: 'Titillium Web', sans-serif;
+    border-radius:8px;
+    background-color:whitesmoke;
+    border: black;
+    color:black;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+
+}
+/* end of become a member */
+
+.parapics2 {
+  height: 850px;
+  background-image: url("pics/bg3.jpg");
+  background-repeat: no-repeat;
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* testimony */
+
+#testimony {
+  padding-bottom: 30px;
+}
+
+#testimony .sectionHeader {
+  width: 580px;
+  margin: 40px auto;
+  display: block;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  text-align: center;
+  color: black;
+}
+.testimony table {
+  /* border: 1px solid black; */
+  display: block;
+  margin: 10px auto;
+  width: 580px;
+}
+
+.testimony td {
+  width: 100%;
+}
+.testimony td#image {
+  width: 128px;
+}
+
+.testimony img {
+  display: block;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin: 4px 4px;
+}
+
+.testimony td p q {
+  /* border: 1px solid black; */
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+  text-align: left;
+  font-weight: normal;
+}
+
+.testimony td#odd p {
+  text-align: right;
+  margin-right: 5px;
+}
+
+.testimony strong {
+  color: orange;
+}
+/* end of testimony */
+
+.parapics3 {
+  height: 850px;
+  background-image: url("pics/bg1.gif");
+  background-repeat: no-repeat;
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 70px;
+  }
+/* -------------------------------------------------------- */
+/* location */
+.location {
+  width: 100%;
+}
+
+#location {
+  background-image: url('pics/map.png');
+  height: 850px;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.locationheader {
+  height: 80px;
+  background-color: whitesmoke;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.locationfooter {
+  height: 120px;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-top: 670px;
+}
+
+.titlemap {
+  text-align: center;
+  margin: 0px;
+  padding-top: 10px;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 36px;
+  color: orange;
+}
+.location img#mapImage {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+/* end of loaction */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+/* footer */
+
+footer {
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color : black;
+  height: 340px;
+}
+
+div.logo {
+  text-align: center;
+}
+.logo p {
+  width: 180px;
+  min-width: 180px;
+  height: 40px;
+  margin: 20px auto 0px auto;
+
+  border: 3px solid orange;
+  padding: 3px;
+
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 32px;
+  color: orange;
+  text-align: center;
+  display: inline-block;
+}
+
+.footername {
+  color: orange;
+  font-size: 30px;
+  font-family: 'Sedgwick Ave Display', cursive;
+  margin: auto;
+  padding: 3px;
+  text-align: center;
+  font-weight: normal;
+  border: 3px solid orange;
+  width: 20%;
+
+}
+
+.footertable {
+  margin: auto;
+}
+
+.footer-logo {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.footer-logo ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-logo ul li{
+    display: inline-block;
+    width: 50px;
+}
+
+.footer-logo ul li a{
+    color: orange;
+    font-size:  30px;
+}
+
+.footer-menu-nav{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.footer-menu-nav ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-menu-nav ul li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.footer-menu-nav ul li a{
+    text-decoration: none;
+    color: orange;
+    font-family: 'Open Sans Condensed';
+    font-size: 20px;
+    padding-left: 20px;
+}
+.footername {
+  column-span: all;
+}
+.footertd p {
+  font-size: 20px;
+  color: orange;
+  font-weight: normal;
+}
+
+.footertd p a{
+  color: orange;
+  font-size: 20px;
+}
+.copyright {
+  color: orange;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+/* end of footer */
+/* -------------------------------------------------------- */
